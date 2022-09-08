@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F55A5A;
+    height: 55px;
+}
+
+#plane-icon {
+    margin-right: 8px;
+}
+
+#header h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
