@@ -7,12 +7,18 @@ body {
     font-family: Inter, sans-serif;
 }
 
+#root {
+    width: 550px;
+    margin: 0 auto;
+}
+
 #header {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #F55A5A;
     height: 55px;
+    margin-bottom: 50px;
 }
 
 #plane-icon {
@@ -25,3 +31,64 @@ body {
     color: white;
 }
 
+#card-container {
+    display: flex;
+    margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 471px;
+    height: 168px;
+    
+}
+
+#location-img {
+    object-fit: cover;
+    width: 125px;
+    border-radius: 5px;
+}
+
+#description {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 19px;
+}
+
+#nav {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+#country {
+    color: #2B283A;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0 4px
+}
+
+#g-map {
+    font-size: 11px;
+    color: #918E9B;
+    font-weight: 400;
+    margin: 0 7px;
+}
+
+#title {
+    font-size: 25px;
+    color: #2B283A;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+#date {
+    color: #2B283A;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+#description p {
+    color: #2B283A;
+    font-size: 11px;
+    font-weight: 400;
+}
